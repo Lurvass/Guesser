@@ -8,8 +8,7 @@ public class TestGuesser{
 	public TestGuesser(){
 		Guesser guess1 = new Guesser(5,10);
 		System.out.println("Guess1 ok");
-		Guesser guess2 = new Guesser(10,5);
-		System.out.println("Guess1 ok");
+		guess1.start();
 	}
 
 }
